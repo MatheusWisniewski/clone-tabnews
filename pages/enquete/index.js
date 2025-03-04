@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SurveyContainer = styled.div`
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 8px;
