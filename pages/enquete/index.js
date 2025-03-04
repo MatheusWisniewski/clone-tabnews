@@ -14,6 +14,7 @@ const SurveyContainer = styled.div`
 
 const Question = styled.div`
   margin-bottom: 20px;
+  font-weight: bold;
 `;
 
 const RadioGroup = styled.div`
@@ -21,6 +22,7 @@ const RadioGroup = styled.div`
   justify-content: center;
   gap: 20px;
   margin-top: 10px;
+  font-weight: normal;
 `;
 
 const SubmitButton = styled.button`
