@@ -1,5 +1,5 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import React from "react";
+import styled, { keyframes } from "styled-components";
 
 const MainContainer = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ const MainContainer = styled.div`
   align-items: center;
   min-height: 100vh; // Use min-height to ensure it fills the viewport
   background: linear-gradient(135deg, #a8edea, #fed6e3);
-  font-family: 'Verdana', sans-serif;
+  font-family: "Verdana", sans-serif;
   padding: 20px; // Add padding for better spacing on mobile
 
   @media (max-width: 600px) {

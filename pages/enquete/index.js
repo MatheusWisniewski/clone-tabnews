@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const SurveyContainer = styled.div`
   font-family: sans-serif;
@@ -61,7 +61,7 @@ function Survey() {
     if (question1 && question2) {
       setSubmitted(true);
     } else {
-      alert('Por favor, responda a todas as perguntas.');
+      alert("Por favor, responda a todas as perguntas.");
     }
   };
 
@@ -76,7 +76,7 @@ function Survey() {
             <input
               type="radio"
               value="muito satisfeito"
-              checked={question1 === 'muito satisfeito'}
+              checked={question1 === "muito satisfeito"}
               onChange={handleQuestion1Change}
             />
             Tati
@@ -85,7 +85,7 @@ function Survey() {
             <input
               type="radio"
               value="satisfeito"
-              checked={question1 === 'satisfeito'}
+              checked={question1 === "satisfeito"}
               onChange={handleQuestion1Change}
             />
             Manu
@@ -94,7 +94,7 @@ function Survey() {
             <input
               type="radio"
               value="neutro"
-              checked={question1 === 'neutro'}
+              checked={question1 === "neutro"}
               onChange={handleQuestion1Change}
             />
             Matheus
@@ -103,7 +103,7 @@ function Survey() {
             <input
               type="radio"
               value="insatisfeito"
-              checked={question1 === 'insatisfeito'}
+              checked={question1 === "insatisfeito"}
               onChange={handleQuestion1Change}
             />
             Marilena
@@ -112,7 +112,7 @@ function Survey() {
             <input
               type="radio"
               value="paulo"
-              checked={question1 === 'paulo'}
+              checked={question1 === "paulo"}
               onChange={handleQuestion1Change}
             />
             Paulo
@@ -127,7 +127,7 @@ function Survey() {
             <input
               type="radio"
               value="muito provável"
-              checked={question2 === 'muito provável'}
+              checked={question2 === "muito provável"}
               onChange={handleQuestion2Change}
             />
             fétido
@@ -136,7 +136,7 @@ function Survey() {
             <input
               type="radio"
               value="provável"
-              checked={question2 === 'provável'}
+              checked={question2 === "provável"}
               onChange={handleQuestion2Change}
             />
             limpo
@@ -145,7 +145,7 @@ function Survey() {
             <input
               type="radio"
               value="neutro"
-              checked={question2 === 'neutro'}
+              checked={question2 === "neutro"}
               onChange={handleQuestion2Change}
             />
             neutro
@@ -154,7 +154,7 @@ function Survey() {
             <input
               type="radio"
               value="improvável"
-              checked={question2 === 'improvável'}
+              checked={question2 === "improvável"}
               onChange={handleQuestion2Change}
             />
             achei ofensiva a pergunta
@@ -164,11 +164,7 @@ function Survey() {
 
       <SubmitButton onClick={handleSubmit}>Enviar</SubmitButton>
 
-      {submitted && (
-        <Result>
-          Obrigado(a) pelo seu feedback!
-        </Result>
-      )}
+      {submitted && <Result>Obrigado(a) pelo seu feedback!</Result>}
     </SurveyContainer>
   );
 }

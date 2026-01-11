@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 const Container = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ const Container = styled.div`
   align-items: center;
   height: 100vh;
   background: linear-gradient(135deg, #ff6e7f, #bfe9ff);
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 `;
 
 const Word = styled.span`

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import React from "react";
+import styled, { keyframes } from "styled-components";
 
 const MainContainer = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ const MainContainer = styled.div`
   align-items: center;
   min-height: 100vh; // Use min-height to ensure it fills the viewport
   background: linear-gradient(135deg, #a8edea, #fed6e3);
-  font-family: 'Verdana', sans-serif;
+  font-family: "Verdana", sans-serif;
   padding: 20px; // Add padding for better spacing on mobile
 
   @media (max-width: 600px) {
@@ -29,7 +29,7 @@ const StyledWord = styled.span`
 `;
 
 const StyleOne = styled(StyledWord)`
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 2.8em;
   color: #ff6f61;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -41,7 +41,7 @@ const StyleOne = styled(StyledWord)`
 `;
 
 const StyleTwo = styled(StyledWord)`
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.5em;
   color: #673ab7;
   background: radial-gradient(circle, #9575cd, #673ab7);
@@ -55,7 +55,7 @@ const StyleTwo = styled(StyledWord)`
 `;
 
 const StyleThree = styled(StyledWord)`
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.4em;
   color: #8bc34a;
   border-bottom: 3px dashed #aed581;
@@ -68,7 +68,7 @@ const StyleThree = styled(StyledWord)`
 `;
 
 const StyleFour = styled(StyledWord)`
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3.2em;
   color: #3f51b5;
   text-decoration: underline wavy #5c6bc0;
@@ -81,7 +81,7 @@ const StyleFour = styled(StyledWord)`
 `;
 
 const StyleFive = styled(StyledWord)`
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 3em;
   color: #ffc107;
   letter-spacing: 3px;
@@ -94,7 +94,7 @@ const StyleFive = styled(StyledWord)`
 `;
 
 const StyleSix = styled(StyledWord)`
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 3.6em;
   color: #f5f5f5;
   border-radius: 8px;
